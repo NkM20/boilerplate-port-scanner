@@ -11,6 +11,7 @@ ports = port_scanner.get_open_ports("104.26.10.78", [8079, 8090])
 print("Open ports:", ports, "\n")
 
 # Verbose called with ip address and no host name returned -- single open port
+
 ports = port_scanner.get_open_ports("104.26.10.78", [440, 450], True)
 print(ports, "\n")
 
